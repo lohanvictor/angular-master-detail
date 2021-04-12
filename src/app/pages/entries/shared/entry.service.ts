@@ -59,7 +59,7 @@ export class EntryService {
           map(() => entry)
         )
       })
-    )
+    ) 
   }
 
   delete(id: number): Observable<any> {
